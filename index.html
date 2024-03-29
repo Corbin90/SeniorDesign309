@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = 'viewport' content='with=device-width, initialscale'>
+    <title>Senior Design Group: 309</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="home">
+    <!--Home Page-->
+    <nav>
+        <a href="index.html"><img src = 'Images/COELOGO.png'></a>
+        <div class='nav-links'>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">TEAM</a></li>
+                <li><a href="">PROJECT OVERVIEW</a></li>
+                <li><a href="">DATA</a></li>
+            </ul>
+        </div>
+    </nav>
+<div class ='text-box'>
+    <h1>Automated Aquaponic Farm</h1>
+    <p>The project goal was to make an automated aquaponic farming system
+        that uses Light Detection and Ranging (LiDAR) technology to track the plants grown in a small
+        farm bed. </p> 
+    <a href="" class="team-btn">Meet the team</a>
+</div>
+</section>
+
+<!--Team-->
+<section class="team">
+    <h1>Meet The Team</h1>
+    <p>This team consists of FAMU-FSU College of Engineering students, faculty advisor, and FAMU faculty member.</p>
+    <div class = 'students'>
+        <h2>Students</h2>
+            <img src="Images/Jack.png" height = '200'>
+            <p>Jack Mcauliffe, Product Management​ Engineer</p>
+            <img src="Images/Ngoc.png" height = '200'>
+            <p>Ngoc Duong, Co-Electrical Engineer Lead</p>
+            <img src="Images/Shay.png" height = '200'>
+            <p>Shay Fleming, Co-Computer Engineer Lead</p>
+            <img src="Images/Rahsaan.png" height = '200'>
+            <p>Rahsaan Corbin II, Co-Computer Engineer Lead</p>
+            <img src="Images/Jared.png" height = '200'>
+            <p>Jared Hunter, Co-Electrical Engineer Lead</p>
+            <img src="Images/Julia.png" height = '200'>
+            <p>Julia Gonzales, Controls Engineer</p> 
+        <h2>Faculty Sponsor</h2>
+                <img src="Images/DrEdwards.png" height = '200'>
+                <p>Jesse Edwards, Ph.D.​</p>
+                <p>FAMU Chemistry Professor​</p>
+        <h2>Faculty Advisor</h2>
+            <img src="Images/DrDebrunner.png" height = '200'>
+            <p>Victor DeBrunner, Ph.D.​</p>
+            <p>FAMU-FSU College of Engingineering Electrical-Computer Engineering Professor​</p>
+</section>
+
+<!--Project Overview-->
+<section class="project-overview">
+    <h1>Project Overview</h1>
+    <div class = 'project-overview'></div>
+    <h2>Customer Needs</h2>
+    <p>Customer requires accurate measurement of plant growth via daily scans.   
+        Integrate FarmBot and the LiDAR to make one complete system.  Data must be securely stored, 
+        backed up, and easily retrievable when needed.
+    </p>
+    <h2>What we have done</h2>
+    <p>Our team combined the VLP-16 LiDAR sensor with a Genesis farming robot tool called FarmBot 
+        that moves the camera around a planted area to take daily measurements.</p>
+    <img src="/Users/rahcorbinii/Desktop/HTML_Tutorial/SeniorDesignSite/Images/FarmBot.png" height = '400' width = '400'>
+    <h2>Scope</h2>
+    <p>We have integrated a VLP-16 LiDAR system with a FarmBot to monitor and analyze plant growth.  
+        The system aims to provide real-time, accurate, and efficient data acquisition to be stored in the cloud 
+        for easy access.</p>
+    <img src="Images/scope.png" height='200'width="1000">
+    <h2>Test Plants</h2>
+    <img src="Images/Plants1.jpeg" height = '400' width = '400'>
+    <img src="Images/Plants2.jpeg" height = '400' width = '400'>
+
+    <h2>Data</h2>
+    <p> The team combined the VLP-16 LiDAR sensor to the FarmBot which allows the 
+        camera to move around to each of the plants tracking growth.  It will take
+        daily measurements, after the data is collected from the scan the information
+        is sent to the Amazon Web Services S3 bucket for storage
+    </p>
+    <p>
+        For more information about the data processing and to view the data please click 
+        link to go to the Data Collection page.
+    </p>
+</section>
+
+<!--Data Collection-->
+<section class="data-collection">
+    <h1>Data Collection</h1>
+    <div class = 'data-collection'></div>
+</section>
+
+</body> 
+</html>
