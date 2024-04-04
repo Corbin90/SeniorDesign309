@@ -13,6 +13,7 @@ import pandas as pd
 from io import StringIO
 import boto3
 import csv
+import os
 
 def on_connect(client, userdata, flags, rc):
 	print("Connected")
@@ -60,6 +61,7 @@ class PoseSubscriberNode(Node):
 		self.count0 += 1
 		if self.count0 == 1:
 			print('Message finish')
+			os.remove('/home/team309/ros2_ws/team309/team_309.csv')
 			raise SystemExit
 		
 def main(args=None):
